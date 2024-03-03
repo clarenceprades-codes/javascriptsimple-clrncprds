@@ -1,0 +1,75 @@
+
+.custom-header {
+  background-color: #333; /* Gray background */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.custom-header:hover {
+  background-color: #444; /* Darker gray background on hover */
+}
+.content {
+  margin: 0 auto; /* Center-align the content */
+  margin-top: 200px;
+}
+.project-title {
+  text-align: center;
+  font-size: 24px; /* Adjust font size */
+  color: #333; /* Dark gray text */
+  margin-top: 50px; /* Add margin top for spacing */
+}
+/* Styles for the calculator */
+.calculator {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.buttons button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 2px 4px rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #d9d9d9;
+  transform: translateY(-2px);
+}
+
+#result {
+  width: calc(100% - 20px); /* Adjusted width */
+  margin: 0 auto; /* Center the box */
+  margin-bottom: 10px;
+  padding: 10px; /* Adjusted padding */
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #888; /* Gray background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Center-align the text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+

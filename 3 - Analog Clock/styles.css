@@ -1,0 +1,46 @@
+.custom-header {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.custom-header:hover {
+  background-color: #444; /* Slightly darker gray background on hover */
+}
+
+.project-title {
+  font-size: 24px;
+  color: #333; /* Dark gray text */
+  margin-top: 100px; /* Adjusted margin */
+  text-align: center; /* Center-align the text */
+}
+
+.content {
+  margin: 0 auto; /* Center-align the content */
+  margin-top: 200px;
+}
+
+.clock {
+  border-radius: 50%;
+  background-color: #f2f2f2; /* Light gray background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto; /* Center-align the clock */
+}
+
+#analogClock {
+  border-radius: 50%;
+  background-color: #fff; /* White background */
+  border: 2px solid #ccc; /* Gray border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
